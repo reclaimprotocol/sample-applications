@@ -10,7 +10,7 @@ function App() {
 	const [sessionState, setSessionState] = useState('IDLE')
 	const [proofs, setProofs] = useState()
 
-	const reclaimSDK = new ReclaimSDK('ccc46624-2601-44e8-90ac-31d9d2803c20') // This is a demo API key. Replace with your own API key
+	const reclaimSDK = new ReclaimSDK('6d6c04eb-237b-4599-8797-94d48b0ac612') // This is a demo API key. Replace with your own API key
 
   async function generateSession() {
 		const userId = '<USER_ID>' // Replace with the user's ID
